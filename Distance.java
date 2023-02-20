@@ -13,6 +13,7 @@ public class Distance {
 	
 	/**
 	 * Find the distance between two points once set
+	 * then clear out memory space to zero again
 	 * @return
 	 */
 	public static double distance() {
