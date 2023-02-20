@@ -40,11 +40,11 @@ public class Distance {
 		}
 		
 		if (point != 0 && point_b != 0) {
-			distance = point_b - (point - point);
+			distance = point_b - point;
 		} else if (a != 0 && b != 0) {
-			distance = Math.sqrt(b) - (Math.sqrt(a) - Math.sqrt(a));
+			distance = Math.sqrt(b) - Math.sqrt(a);
 		}  else if (ta != 0 && tb != 0) {
-			distance = Math.cbrt(b) - (Math.cbrt(a) - Math.cbrt(a)); //Need cube root
+			distance = Math.cbrt(b) - Math.cbrt(a); //Need cube root
 		}
 		
 		return distance;
